@@ -3,7 +3,7 @@ A Tiny (5.7KB) Java library to read configuration files.
 
 ## Installation
 
-Follow the build instructions [here](#build).
+Follow the build instructions [here](#building).
 Then, you can use the library in your project.
 
 ### Maven

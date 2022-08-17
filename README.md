@@ -26,4 +26,4 @@ Then, you can use the library in your project.
 3. If you wish to use this with maven, replace the `mvn clean package` with `mvn clean install`.
 
 ## Usage
-For usage, see the [Wiki](/wiki/).
+For usage, see the [Wiki](../../wiki).

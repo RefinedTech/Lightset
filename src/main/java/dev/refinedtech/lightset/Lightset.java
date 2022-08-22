@@ -300,11 +300,8 @@ public class Lightset {
     }
 
     private Object tryParse(String value) {
-        try {
-            return Boolean.parseBoolean(value);
-        } catch(Exception ignored) {
-
-        }
+        if(value.equalsIgnoreCase("true")) return true;
+        if(value.equalsIgnoreCase("false")) return false;
         Number n = tryParseNumber(value);
         if(n != null) return n;
         return value;
